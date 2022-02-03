@@ -1,0 +1,115 @@
+.conatiner1 {
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+.menudownimage {
+  width: 340px;
+  height: 340px;
+}
+.menudownh1 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: #fe4759;
+  text-align: left;
+}
+.menudownp {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: justify;
+  color: #f6e42e;
+}
+.roadmapdown {
+  padding-top: 120px;
+}
+@media (max-width: 1100px) {
+  .menudownh1 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #fe4759;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .menudownp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 30px;
+    text-align: justify;
+    color: #f6e42e;
+  }
+}
+@media (max-width: 600px) {
+  .conatiner1 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .menudownimage {
+    width: auto;
+    height: 340px;
+  }
+  h1 {
+    padding-top: 20px;
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #fe4759;
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .menudownp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 40px;
+    text-align: justify;
+    color: #f6e42e;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .conatiner1 {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .menudownimage {
+    height: 280px;
+  }
+  .menudownh1 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fe4759;
+    padding-top: 40px;
+    padding-left: 27px;
+  }
+  .menudownp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 33px;
+    text-align: justify;
+    color: #f6e42e;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: -10px;
+  }
+  .menudownrow2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

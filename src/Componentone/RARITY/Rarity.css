@@ -1,0 +1,31 @@
+.rarityh2 {
+  font-family: Nexa;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.rarityimg {
+  position: absolute;
+  left: 330px;
+  top: 1200px;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .rarityimage {
+    width: 490px;
+  }
+}
+@media (max-width: 600px) {
+  .rarityimage {
+    width: 390px;
+  }
+}
+@media (max-width: 480px) {
+  .rarityimage {
+    width: 300px;
+  }
+}

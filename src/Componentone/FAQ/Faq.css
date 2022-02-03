@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+/* h2 {
+  text-align: center;
+  margin: 40px 0;
+  font-family: PixelOperatorMonoHBRegular;
+  color: #f6e42e;
+  font-weight: 500;
+  font-size: 50px;
+} */
+.faq1 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  /* line-height: 30px; */
+  text-align: center;
+  margin: 40px 0;
+  color: #f6e42e;
+}
+.content22 {
+  color: white;
+  font-family: PixelOperatorMonoHBRegular;
+  font-size: 18px;
+}
+.accordion {
+  width: auto;
+  /* margin: 90px auto; */
+  color: white;
+  background-color: #fe4759;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  /* padding: 45px 45px; */
+}
+
+/* .accordion .container {
+  position: relative;
+  margin: 10px 10px;
+} */
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  font-family: PixelOperatorMonoHBRegular;
+}
+.faqcolor {
+  background-color: #fe4759;
+  /* border: 2px solid red; */
+  padding-bottom: 40px;
+}
+
+.accordion .label::before {
+  /* content: "\027A2"; */
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+  font-family: PixelOperatorMonoHBRegular;
+}
+
+.accordion .content {
+  /* position: relative; */
+  background: white;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 780px;
+  overflow: hidden;
+  transition: 0.5s;
+  font-family: PixelOperatorMonoHBRegular;
+}
+
+.accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid white;
+  font-family: PixelOperatorMonoHBRegular;
+}
+
+.accordion .container.active .content {
+  height: 150px;
+  font-family: PixelOperatorMonoHBRegular;
+  /* color: red; */
+}
+
+.accordion .container.active .label::before {
+  content: "\0290B";
+  font-size: 90px;
+  font-family: PixelOperatorMonoHBRegular;
+}
+@media (max-width: 768px) {
+  .accordion .label {
+    /* position: relative; */
+    padding: 10px 0;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    font-family: PixelOperatorMonoHBRegular;
+  }
+  .label1 {
+    font-size: 14px;
+  }
+} ;

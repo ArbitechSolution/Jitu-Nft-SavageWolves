@@ -1,0 +1,43 @@
+.backroundColor1 {
+  background-color: #32274a;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.conatiner3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.membershiph4 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+  text-align: center;
+  color: #fe4759;
+}
+.membershipp {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-justify: inter-word;
+  hyphens: auto !important;
+  word-spacing: normal;
+  hyphens: auto;
+  text-align: left; 
+  color: #f6e42e;
+}
+.membershiprow22 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.menudownh18 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: #fe4759;
+  text-align: center;
+}

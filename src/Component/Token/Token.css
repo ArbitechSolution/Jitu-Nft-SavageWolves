@@ -1,0 +1,60 @@
+.fluid3 {
+  background-color: #fe4759;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: 70px;
+}
+.circleimage {
+  width: 320px;
+}
+.statush2 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: left;
+
+  color: #f6e42e;
+}
+.statusp {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: justify;
+  hyphens: auto;
+  color: #ffffff;
+}
+.statuscol {
+  padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .statush2 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #f6e42e;
+  }
+  .statusp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+    word-break: break-all;
+    color: #ffffff;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .circleimage {
+    width: 290px;
+  }
+} ;

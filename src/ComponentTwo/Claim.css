@@ -1,0 +1,652 @@
+.claimmain {
+  background-image: url("../Asset1/claim_bg_ALT.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+.claimmainPic{
+  background-image: url("../Asset1/claim_bg_ALT.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100% !important;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+
+}
+.claimh2 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.claimp {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: #f6e42e;
+}
+#linkclaim {
+  text-decoration: none;
+  color: white;
+}
+.CLAIMROW {
+  margin-top: 50px;
+}
+.CLAMBTN {
+  background-color: #fe4759;
+  font-family: PixelOperatorMonoHBRegular;
+  font-size: 22px;
+  color: white;
+  padding: 18px 25px;
+}
+.CLAMBTN:hover {
+  background-color: #f6e42e;
+  color: #fe4759;
+  font-family: PixelOperatorMonoHBRegular;
+  font-size: 22px;
+}
+.CLAMBTN1 {
+  background-color: #fe4759;
+  font-family: PixelOperatorMonoHBRegular;
+  font-size: 22px;
+  color: white;
+  padding: 18px 25px;
+}
+.CLAMBTN1:hover {
+  background-color: #f6e42e;
+  color: #fe4759;
+  font-family: PixelOperatorMonoHBRegular;
+  font-size: 22px;
+}
+.clainrow1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.claimcol5 {
+  display: flex;
+  justify-content: center;
+}
+#button-addon2 {
+  background-color: #fe4759;
+  font-family: PixelOperatorMonoHBRegular;
+  font-size: 25px;
+  color: white;
+  -webkit-box-shadow: -8px 3px 25px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px 3px 25px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: -8px 3px 25px 1px rgba(0, 0, 0, 0.75);
+}
+.clantext {
+  font-family: PixelOperatorMonoHBRegular;
+  font-size: 17px;
+  color: white;
+}
+.claiminput {
+  background-color: #fe4759;
+  color: white;
+  border: 2px solid #fe4759;
+  padding: 18px 25px;
+  font-family: PixelOperatorMonoHBRegular;
+  font-size: 22px;
+  width: 430px;
+}
+::placeholder {
+  color: white;
+  font-family: PixelOperatorMonoHBRegular;
+  font-size: 25px;
+  opacity: 0.7;
+}
+input[type="text"] {
+  border: none;
+  background-color: none;
+  outline: 0;
+}
+
+input[type="text"]:focus {
+  border: none;
+  background-color: none;
+}
+.claimcol11 {
+  text-align: center;
+}
+.clainrow5 {
+  display: flex;
+  justify-content: center;
+}
+.claimbutton {
+  display: flex;
+}
+.cropeImage{
+  width: 250px;
+}
+@media (max-width: 3000px){
+  .claiminput {
+    background-color: #fe4759;
+    color: white;
+    border: 2px solid #fe4759;
+    padding: 18px 25px;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 22px;
+    width: 285px;
+  }
+  .CLAIMROW {
+    margin-top: 10px;
+  }
+  .clainrow1 {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+  }
+  .claimcol89 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .claimmain {
+    height: auto;
+    margin-top: 0px;
+  }
+  .claimmainPic{
+    height: 100vh !important;
+  }
+  
+  .claimh2 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .cropeImage{
+    width: 250px;
+  }
+  .clantext {
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 13px;
+    color: white;
+  }
+}
+@media (max-width: 1600px) {
+  .claiminput {
+    background-color: #fe4759;
+    color: white;
+    border: 2px solid #fe4759;
+    padding: 18px 25px;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 22px;
+    width: 350px;
+  }
+  
+.cropeImage{
+  width: 250px;
+}
+  .claimmain {
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .claimmainPic{
+    height: 100vh !important;
+    padding-bottom: 100px;
+    
+  }
+}
+@media (max-width: 1100px) {
+  .claiminput {
+    background-color: #fe4759;
+    color: white;
+    border: 2px solid #fe4759;
+    padding: 18px 25px;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 22px;
+    width: 285px;
+  }
+  .cropeImage{
+    width: 220px;
+  }
+  .CLAIMROW {
+    margin-top: 10px;
+  }
+  .clainrow1 {
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+  }
+  .claimcol89 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .claimmain {
+    height: auto;
+    margin-top: 0px;
+  }
+  .claimmainPic{
+    height: 100vh !important;
+  }
+  
+  .claimh2 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .clantext {
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 13px;
+    color: white;
+  }
+}
+@media (max-width: 770px) {
+  .claimh2 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .cropeImage{
+    width: 200px;
+  }
+  .claimmain {
+    background-color: #3a2b5e;
+    background-image: url("../Asset1/claim_bg_ALT.jpg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+  }
+  .claimmainPic{
+    background-color: #3a2b5e;
+    background-image: url("../Asset1/claim_bg_ALT.jpg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .claimcol89 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+  }
+  .claimp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #f6e42e;
+  }
+  .CLAIMROW {
+    margin-top: 20px;
+  }
+  .clainrow1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .claimmain {
+    height : auto;
+    padding-bottom: 70px;
+  }
+  .claimmainPic{
+    height: 100vh;
+    padding-bottom: 70px;
+  }
+
+  #button-addon2 {
+    background-color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 18px;
+    color: white;
+  }
+  .clantext {
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 11px;
+    color: white;
+  }
+
+  .claimcol11 {
+    text-align: center;
+    margin-left: 8px !important;
+  }
+  .clantext {
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 11px;
+    color: white;
+  }
+  .claiminput {
+    background-color: #fe4759;
+    color: white;
+    border: 2px solid #fe4759;
+
+    display: flex;
+    justify-content: center;
+    padding: 18px 25px;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 22px;
+  }
+  .claimbutton {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 600px) {
+  .claimh2 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .claimp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+    text-align: center;
+    color: #f6e42e;
+  }
+  .CLAIMROW {
+    margin-top: 20px;
+  }
+  .clainrow1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #button-addon2 {
+    background-color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 18px;
+    color: white;
+  }
+  .CLAMBTN {
+    background-color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 17px;
+    color: white;
+    padding: 18px 44px;
+  }
+  .CLAMBTN:hover {
+    background-color: #f6e42e;
+    color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 22px;
+  }
+  ::placeholder {
+    color: white;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 20px;
+    opacity: 1;
+  }
+  .claimbutton {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .claimcol89 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .claiminput {
+    background-color: #fe4759;
+    color: white;
+    border: 2px solid #fe4759;
+    padding: 18px 25px;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 22px;
+    width: auto;
+  }
+  .cropeImage{
+    width:180px;
+  }
+  .claimmain {
+    height: auto;
+  }
+  .claimmainPic{
+    heigth:100vh !important;
+  }
+}
+@media (max-width: 480px) {
+  .claimh2 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .claimp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: center;
+    color: #f6e42e;
+  }
+  .CLAIMROW {
+    margin-top: -5px;
+  }
+  .clainrow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .CLAMBTN {
+    background-color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 17px;
+    color: white;
+    padding: 18px 44px;
+  }
+  .CLAMBTN:hover {
+    background-color: #f6e42e;
+    color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 22px;
+  }
+  .CLAMBTN1:hover {
+    background-color: #f6e42e;
+    color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 22px;
+  }
+  .CLAMBTN1 {
+    background-color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 17px;
+    color: white;
+    padding: 18px 37px;
+    margin-top: 20px;
+  }
+  .clainrow1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+  }
+  .claimcol89 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+  }
+  .claiminput {
+    background-color: #fe4759;
+    color: white;
+    border: 2px solid #fe4759;
+    padding: 18px 25px;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 18px;
+  }
+  #button-addon2 {
+    background-color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 16px;
+    color: white;
+  }
+  ::placeholder {
+    color: white;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 16px;
+    opacity: 1;
+  }
+  input[type="text"] {
+    border: none;
+    background-color: none;
+    outline: 0;
+  }
+
+  input[type="text"]:focus {
+    border: none;
+    background-color: none;
+  }
+  .claimbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .cropeImage{
+    width: 160px;
+  }
+  .claimmain {
+    background-image: url("../Asset1/claim_bg_ALT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+    width: 99.1%;
+    margin-top: 0px;
+  }
+  .claimmainPic{
+    background-image: url("../Asset1/claim_bg_ALT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh !important;
+    width: 99.1%;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 321px) {
+  .claimh2 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .claimp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 33px;
+    text-align: center;
+    color: #f6e42e;
+  }
+  .CLAIMROW {
+    margin-top: -10px;
+  }
+  .clainrow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .CLAMBTN {
+    background-color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 15px;
+    color: white;
+    padding: 15px 30px;
+  }
+  .CLAMBTN1 {
+    background-color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 15px;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 10px;
+  }
+  .clainrow1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .claiminput {
+    background-color: #fe4759;
+    color: white;
+    border: 2px solid #fe4759;
+    padding: 15px 22px;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 18px;
+  }
+  #button-addon2 {
+    background-color: #fe4759;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 16px;
+    color: white;
+  }
+  ::placeholder {
+    color: white;
+    font-family: PixelOperatorMonoHBRegular;
+    font-size: 16px;
+
+    opacity: 1;
+  }
+  input[type="text"] {
+    border: none;
+    background-color: none;
+    outline: 0;
+  }
+
+  input[type="text"]:focus {
+    border: none;
+    background-color: none;
+  }
+  .claimbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

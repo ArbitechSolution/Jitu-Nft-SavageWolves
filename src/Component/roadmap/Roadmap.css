@@ -1,0 +1,283 @@
+.conatiner22 {
+  margin-top: -70px;
+}
+.boxex {
+  width: 200px;
+  height: 40px;
+  background: #fe4759;
+  border-radius: 15px;
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #f6e42e;
+  margin-top: 30px;
+}
+.roadmaph1 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: #fe4759;
+}
+.roadmaprow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.roadmapimage9 {
+  width: 5px;
+  height: 38px;
+  background-color: #fe4759;
+  color: #fe4759;
+  z-index: 10000;
+}
+.roadmapimage10 {
+  width: 20px;
+}
+.boxes1 {
+  width: 840px;
+  height: auto;
+  left: 343px;
+  top: 3173.77px;
+  border: 3px solid #fe4759;
+  box-sizing: border-box;
+  border-radius: 30px;
+  align-self: center;
+}
+.roadmapp {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 21px;
+  color: #f6e42e;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 30px;
+  text-align: justify;
+  hyphens: auto;
+}
+.roadmapp10 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 21px;
+  color: #f6e42e;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 30px;
+  text-align: justify;
+  hyphens: auto;
+}
+.roadmaph4 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #fe4759;
+}
+.roadmapimage19 {
+  width: 5px;
+  height: 60px;
+}
+.boxex1 {
+  width: 200px;
+  height: 40px;
+  background: #fe4759;
+  border-radius: 15px;
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #f6e42e;
+}
+.roadmapimage91 {
+  width: 5px;
+  height: 24px;
+}
+.roadmappup {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: left;
+  color: #f6e42e;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 30px;
+  text-align: justify;
+  hyphens: auto;
+}
+.memebershiph1 {
+  font-family: PixelOperatorMonoHBRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  color: #fe4759;
+  margin-top: 40px;
+}
+.membershipimage {
+  width: 900px;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-top: 17px solid #fe4759;
+}
+@media (max-width: 995px) {
+  .boxes1 {
+    width: 840px;
+    height: auto;
+    left: 343px;
+    top: 3173.77px;
+    border: 3px solid #fe4759;
+    box-sizing: border-box;
+    border-radius: 30px;
+    align-self: center;
+  }
+}
+@media (max-width: 600px) {
+  .conatiner22 {
+    padding-top: 20px;
+  }
+  .roadmapp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #f6e42e;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: justify;
+  hyphens: auto;
+  }
+  .roadmapp10 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #f6e42e;
+    text-align: left;
+    padding-left: 20px;
+    text-align: justify;
+  hyphens: auto;
+  }
+  .roadmappup {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    color: #f6e42e;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: justify;
+  hyphens: auto;
+  }
+  .memebershiph1 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 43px;
+    text-align: center;
+    color: #fe4759;
+  }
+  .membershipimage1 {
+    width: 200px;
+  }
+  .roadmaph4 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #fe4759;
+  }
+}
+@media (max-width: 482px) {
+  .conatiner22 {
+    padding-top: 10px;
+  }
+  .boxes1 {
+    width: 840px;
+    height: auto;
+    left: 343px;
+    top: 3173.77px;
+    border: 3px solid #fe4759;
+    box-sizing: border-box;
+    border-radius: 30px;
+    align-self: center;
+  }
+  .roadmaph4 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #fe4759;
+  }
+  .roadmapp10 {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #f6e42e;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 30px;
+    text-align: justify;
+  hyphens: auto;
+  }
+  .roadmappup {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    color: #f6e42e;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+    text-align: justify;
+  hyphens: auto;
+  }
+  .roadmapp {
+    font-family: PixelOperatorMonoHBRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #f6e42e;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 40px;
+    text-align: justify;
+  hyphens: auto;
+  }
+}
