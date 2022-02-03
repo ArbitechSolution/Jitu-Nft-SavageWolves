@@ -1,0 +1,21 @@
+Font: Pixel Operator Regular
+Headline font: Pixel Operator Bold
+
+Yellow color: #f6e42e
+Pink (headline/button) color: #fe4759
+Website background color: 261a40
+
+https://www.dafont.com/pixel-operator.font
+
+The logo is not final but the size and look will be exact same thing.
+Menu should be at the top all the time like the example you sent. I don’t need any instgram but need discord button. So homepage should be like in this order:
+TOP ARTWORK
+ABOUT with a simple gif and text
+ROADMAP (need to change the colors/fonts)
+TOKEN (pink background image, huge texts with a funny coin image/I will work on that but just put a placeholder for now)
+TOKEN BENEFITS (exact same thing of your membership benefits but need color/font adjustment)
+THE TEAM (3 short bio/3 nft image will provide it)
+FAQ
+JOIN THE COMMUNITY (discord part/will provide a background image)
+FOOTER (needs logo/copyright/nft contract/token contract/social accounts)
+

@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #261a40;
+  /* width: 100vw;
+  height: 100vh; */
+}
+.loadingPage{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 5rem;
+  /* align-items: center; */
+}
+.loadingPage div {
+	color: #261a40;
+	font-size: 14vw;
+	position: relative;
+	text-transform: uppercase;
+	-webkit-text-stroke: 0.3vw #f7f7fe;
+}
+
+.loadingPage div::before {
+
+	top: 0%;
+	left: 0%;
+  margin: auto;
+	width: 0;
+	height: 100%;
+	color: #FE4759;
+	overflow: hidden;
+	position: absolute;
+	content: attr(data-text);
+	border-right: 2px solid #37b9f1;
+	-webkit-text-stroke: 0vw #f7f7fe;
+	animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+	0%,
+	10%,
+	100% {
+		width: 0;
+	}
+
+	70%,
+	90% {
+		width: 100%;
+	}
+}
